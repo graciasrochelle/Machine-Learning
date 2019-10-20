@@ -66,3 +66,5 @@ When the target variable that we're trying to predict is continous, such as the 
 Otherwise called the "Squared error function", or "Mean squared error". This takes an average difference of all the results of the hypothesis with inputs from x's and the actual output y's.
 
 The goalis to try to minimize the cost function.
+
+## Linear Regression with one variable - Gradient Descent
