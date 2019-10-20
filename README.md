@@ -51,3 +51,18 @@ Example:
 Clustering: Take a collection of 1,000,000 different genes, and find a way to automatically group these genes into groups that are somehow similar or related by different variables, such as lifespan, location, roles, and so on.
 
 Non-clustering: The "Cocktail Party Algorithm", allows you to find structure in a chaotic environment. (i.e. identifying individual voices and music from a mesh of sounds at a cocktail party).
+
+## Model Representation
+
+x^(i) denoted the "input" variable, also called input features and y^(i) denotes the "output" or target variable that we are trying to predict (price). A pair (x^(i), y^(i)) is called a training example. m is called a training set.
+
+Given a training set, to learn a function h: X -> Y so that h(x) is a good predictor for the corresponding value of y. h is called a hypothesis
+
+![Model Representation](https://github.com/graciasrochelle/Machine-Learning/blob/week1/image1.png)
+
+When the target variable that we're trying to predict is continous, such as the housing example, we call the learning problem a regression problem. When y can take on only a small number of discrete values (such as if, given the living area, we predict if a dwelling is a house or an apartment) we call it a classification problem.
+
+## Cost function
+Otherwise called the "Squared error function", or "Mean squared error". This takes an average difference of all the results of the hypothesis with inputs from x's and the actual output y's.
+
+The goalis to try to minimize the cost function.
