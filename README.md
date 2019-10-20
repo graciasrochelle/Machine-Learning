@@ -68,3 +68,16 @@ Otherwise called the "Squared error function", or "Mean squared error". This tak
 The goalis to try to minimize the cost function.
 
 ## Linear Regression with one variable - Gradient Descent
+
+
+## Matrices and Vectors
+Matrices rectangular array of numbers. 2D array. Denoted by upper case alphabets.
+Dimention of matrix: Number of rows X Number of columns
+
+Vector: An n * 1 matrix. 4D vector. 1-indexed vs 2-indexed. Denoted by lower case alphabets.
+
+Prediction = Data Matrix * Parameters
+
+[m * n] * [n * o] = m * o
+
+Matrices that don't have an inverse are "singular" or "degenerate"
